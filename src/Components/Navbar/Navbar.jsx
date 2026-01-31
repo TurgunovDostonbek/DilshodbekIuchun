@@ -1,8 +1,12 @@
 import './Navbar.css'
+import { useState } from 'react';
+import Bars from '../Bars/Bars'
 import { FaBars } from "react-icons/fa";
 
 
 function Navbar() {
+  let [barsOpen, setBarsOpen] = useState(false);
+
   return (
     <div className='navbar container'>
       <div className="navbar__logo">
@@ -18,9 +22,10 @@ function Navbar() {
         <a href="">Language</a>
         <a href="">Contact</a>
       </div>
-        <a className='bars' href="">
+        <button onClick={() => {setBarsOpen(true)}} className='bars' href="">
           <FaBars />
-        </a>
+        </button>
+      {barsOpen && <Bars/>}
     </div>
   )
 }
