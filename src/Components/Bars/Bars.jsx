@@ -1,8 +1,10 @@
 import "./Bars.css"
+import { IoMdClose } from "react-icons/io";
 
-function Bars() {
+function Bars({barsOpen, setBarsOpen}) {
   return (
     <div className='bars_modal'>
+      <button onClick={() => {setBarsOpen(false)}} className="bars_modal--closebtn"><IoMdClose /></button>
       <ul>
         <li>
           <a href="">Home</a>
