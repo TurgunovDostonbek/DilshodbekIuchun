@@ -4,10 +4,15 @@
   flex-wrap: wrap;
   margin-top: 100px;
   margin-bottom: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Hobby1 p {
   margin-top: 20px;
+}
+
+.Hobby1 h1 {
+  font-size: 50px;
 }
 
 .Hobby2 {
@@ -18,9 +23,11 @@
   margin-top: 50px;
 }
 
+
+
 .Hobby2 img {
   width: 100%;
-  height: auto;
+  height: 400px;
 }
 
 .Hobby2_text p {
@@ -35,4 +42,9 @@
   .Hobby2{
     flex-direction: column;
   }
+
+  .Hobby2 img {
+  width: 100%;
+  height: auto;
+}
 }
