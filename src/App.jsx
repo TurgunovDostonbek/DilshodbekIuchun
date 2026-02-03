@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import { useState } from "react";
 import Skills from "./Components/Skills/Skills";
 import About from "./Components/About/About";
+import Hobby from './Components/Hobby/Hobby';
 function App() {
   let [barsOpen, setBarsOpen] = useState(false);
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Skills />
       <About />
+      <Hobby/>
     </div>
   );
 }
