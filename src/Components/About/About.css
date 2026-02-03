@@ -1,0 +1,40 @@
+.About_Asosiysi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-text1 h1{
+  font-size: 50px;
+}
+
+.about-text1 p{
+  width: 500px;
+  color: gray;
+}
+
+.about-text2{
+  align-self: end;
+}
+
+.about-text2 ul li a{
+  color: black;
+}
+
+.about-text2 p{
+  width: 500px;
+  color: gray;
+}
+
+@media (max-width: 600px ){
+  .About_Asosiysi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-text1 p, .about-text2 p{
+    width: 100%;
+  }
+}
