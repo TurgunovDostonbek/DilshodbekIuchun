@@ -3,7 +3,7 @@ import contactimage from '../../assets/images/contact.png'
 
 function Contact() {
   return (
-    <div className='mycontact container'>
+    <div id='contact' className='mycontact container'>
       <h1>Contact.</h1><br />
       <div className='mycontact__cards'>
         <div className='mycontact__card'>

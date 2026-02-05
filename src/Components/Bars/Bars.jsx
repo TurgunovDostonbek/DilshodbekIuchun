@@ -13,16 +13,13 @@ function Bars({barsOpen, setBarsOpen}) {
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
-        </li>
-        <li>
           <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#languages">Languages</a>
+          <a href="#hobby">Hobby</a>
         </li>
         <li>
-          <a href="#hobby">Hobby</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>

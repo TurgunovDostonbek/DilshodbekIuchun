@@ -20,9 +20,8 @@ function Navbar({barsOpen, setBarsOpen}) {
         <a href="">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="">Language</a>
         <a href="#hobby">Hobby</a>
-        <a href="">Contact</a>
+        <a href="#contact">Contact</a>
       </div>
         <button onClick={() => {setBarsOpen(true)}} className='bars' href="">
           <FaBars />
