@@ -1,0 +1,44 @@
+.mycontact {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.mycontact__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mycontact__card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.mycontact__card h3 {
+  width: 440px;
+}
+
+.mycontact__card a {
+  color: black;
+  font-size: 16px;
+}
+
+.mycontact__card a:hover {
+  color: green;
+}
+
+@media (max-width: 910px){
+  .mycontact h1{
+    text-align: center;
+  }
+  
+  .mycontact__cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+}

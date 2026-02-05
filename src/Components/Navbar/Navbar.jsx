@@ -18,9 +18,10 @@ function Navbar({barsOpen, setBarsOpen}) {
       <div className="navbar__links">
 
         <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Skills</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
         <a href="">Language</a>
+        <a href="#hobby">Hobby</a>
         <a href="">Contact</a>
       </div>
         <button onClick={() => {setBarsOpen(true)}} className='bars' href="">

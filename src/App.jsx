@@ -5,6 +5,7 @@ import { useState } from "react";
 import Skills from "./Components/Skills/Skills";
 import About from "./Components/About/About";
 import Hobby from './Components/Hobby/Hobby';
+import Contact from './Components/Contact/Contact';
 function App() {
   let [barsOpen, setBarsOpen] = useState(false);
   return (
@@ -14,6 +15,7 @@ function App() {
       <Skills />
       <About />
       <Hobby/>
+      <Contact/>
     </div>
   );
 }

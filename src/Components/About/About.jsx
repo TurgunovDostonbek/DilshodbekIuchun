@@ -2,7 +2,7 @@ import "./About.css"
 
 function About() {
   return (
-    <div className='About_Asosiysi container'>
+    <div id='about' className='About_Asosiysi container'>
       <div className="about-text1">
         <h1>About Me</h1><br />
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vulputate tristique quam felis. Id phasellus dui orci vulputate consequat nulla proin. Id sit scelerisque neque, proin bibendum diam.</p><br /><br />

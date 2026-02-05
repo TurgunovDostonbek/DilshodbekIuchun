@@ -2,7 +2,7 @@ import "./Skills.css";
 
 function Skills() {
   return (
-    <div className="skill container">
+    <div id='skills' className="skill container">
       <h1>Skills</h1>
       <div className="skill__cards">
         <div className="my__skills">

@@ -4,17 +4,17 @@ import hobbyimg1 from "../../assets/images/1-21-mcpe.webp";
 
 function Hobby() {
   return (
-    <div className="Hobby_Asosiysi container">
+    <div id='hobby' className="Hobby_Asosiysi container">
       <div className="Hobby1">
         <h1>Hobby</h1>
         <p>
-          🎮 O‘yin o‘ynashni yoqtirasiz (ayniqsa PUBG kabi), o‘yinlarda taktika
-          va kuchli o‘ynash sizga yoqadi. <br />
-           📚 O‘rganishga qiziqasiz — qonun,
-          huquqiy mavzularni so‘rab, bandma-band tushunib olasiz. <br /> 🗣️ Tilga ham
-          qiziqasiz — uzbekcha gaplarni to‘g‘ri aytish, tarjima va talaffuzni
-          ham tekshirtirib turasiz. <br /> 😂 Memlarni yoqtirasiz, ayniqsa italyancha
-          memlar ko‘p uchraydi sizda.
+          🎮 O‘yin o‘ynashni yoqtiraman (ayniqsa PUBG kabi), o‘yinlarda taktika
+          va kuchli o‘ynash menga yoqadi. <br />
+           📚 O‘rganishga qiziqaman — qonun,
+          huquqiy mavzularni so‘rab, bandma-band tushunib olaman. <br /> 🗣️ Tilga ham
+          qiziqaman — uzbekcha gaplarni to‘g‘ri aytish, tarjima va talaffuzni
+          ham tekshirtirib turaman. <br /> 😂 Memlarni yoqtiraman, ayniqsa italyancha
+          memlar ko‘p uchraydi menda.
         </p>
       </div>
 
