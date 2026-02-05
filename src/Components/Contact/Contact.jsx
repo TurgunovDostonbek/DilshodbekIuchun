@@ -8,7 +8,7 @@ function Contact() {
       <div className='mycontact__cards'>
         <div className='mycontact__card'>
           <img src={contactimage} alt="" />
-        </div>
+        </div><br />
         <div className='mycontact__card'>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet vulputate tristique quam felis. Id phasellus dui orci vulputate consequat nulla proin. Id sit scelerisque neque, proin bibendum diam.</h3>
           <a href="">credom896@gmail.com</a>

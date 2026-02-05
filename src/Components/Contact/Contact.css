@@ -29,16 +29,40 @@
   color: green;
 }
 
-@media (max-width: 910px){
-  .mycontact h1{
+@media (max-width: 910px) {
+  .mycontact h1 {
     text-align: center;
   }
-  
-  .mycontact__cards{
+
+  .mycontact__cards {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
+  }
+
+  .mycontact__card img {
+    width: 800px;
+  }
+
+  .mycontact__card h3 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 814px) {
+  .mycontact__card img {
+    width: 600px;
+  }
+}
+
+@media (max-width: 621px) {
+  .mycontact__card img {
+    width: 100%;
+  }
+
+  .mycontact__card h3 {
+    width: 300px;
   }
 }
